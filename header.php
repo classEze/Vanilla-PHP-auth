@@ -13,14 +13,14 @@
   <?php if( isset($_SESSION['username'])): ?>
     <span>
     <span class='greeting'> Hello <?php echo $_SESSION['username'] ?></span>
-    <a href="./logout.php"> Logout </a>
+    <a class='button-link' href="./logout.php"> Logout </a>
     </span>
 
     <?php else: ?>
   <span>
   <span class='greeting'> Hello Guest</span>
-  <a href="./register.php"> Register </a>
-  <a href="./login.php"> Login </a>
+  <a class='button-link' href="./register.php"> Register </a>
+  <a class='button-link' href="./login.php"> Login </a>
   </span>
   <?php endif; ?>
   </header>
