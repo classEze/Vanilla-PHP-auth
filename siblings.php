@@ -15,7 +15,7 @@ if(!$_SESSION['username']){
 }
 ?>
  <main>
- <h2 class='green-message'>  Here we go, a little about myself: I have 6 siblings, I am the 5th child and these are my siblings and their names...<h2>
+ <h2 class='green-message'>  Here we go, a little about myself: I have 6 siblings, I am the 5th child and these are my siblings and their names...😞😞😞<h2>
  <?php 
  foreach($mySiblings as $key=>$value) :
      echo "{$key} child : {$value} <br>";
@@ -24,7 +24,7 @@ if(!$_SESSION['username']){
    
 
 
-  <p>uh... now you know my little secret </p>
+  <p>uh... now you know my little secret ☹️☹️☹️ </p>
 
  </main>
 
